@@ -18,6 +18,7 @@ builder.Services.AddBlazoredToast();
 builder.Services.AddBlazoredModal();
 
 builder.Services.AddSingleton<StateContainer>();
+builder.Services.AddApplicationInsightsTelemetry();
 
 builder.Services.AddSwaggerGen(c =>
 {
